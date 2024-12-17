@@ -1,4 +1,4 @@
-## What does this code?
+## What does this code do?
 
 This code connects to the Bitso cryptocurrency exchange to fetch account balances, focusing on retrieving the total balance and the Bitcoin (BTC) balance. The Main class handles the process: it first gets the full account balance, checks if the response is successful, and then looks for the BTC balance using a helper method. Additionally, it fetches the BTC balance directly from the API to ensure accuracy and prints the available balance. The program uses JSON parsing with Gson to read and extract the relevant balance data from the API responses.
 
