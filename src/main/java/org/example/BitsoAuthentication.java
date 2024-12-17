@@ -101,7 +101,7 @@ public class BitsoAuthentication {
 
         // Build the request
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://api.bitso.com" + endpoint))
+                .uri(URI.create("https://api.bitso.com" + endpoint)) // For stage use https://api-stage.bitso.com
                 .header("Content-Type", "application/json")
                 .header("Authorization", headers.get("Authorization"))
                 .build();
